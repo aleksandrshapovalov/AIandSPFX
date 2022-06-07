@@ -7,7 +7,6 @@ This sample project enables Graph API data to be pulled in Dataverse
 ## Applies to
 
 *   [Microsoft Power Automate](https://docs.microsoft.com/power-automate/)
-*   [Microsoft Power BI](https://docs.microsoft.com/en-us/power-bi/)
 
 ## Compatibility
 
@@ -21,15 +20,10 @@ This sample project enables Graph API data to be pulled in Dataverse
 
 This sample demonstrates the following concepts:
 
-*   Use of Power BI Report / Power BI Data Flows to trigger Power Automate
+*   Use of DataVerse Tables to trigger Power Automate
 *   Development of a Custom Connector to connect to Microsoft Graph API
 *   Graph API Paging
-*   Returning Data to Power BI Report / Power BI Dataflow
-
-## Minimal Path to Awesome
-*   [Configure Azure Application and Import Custom Connector](customconnector.md "Configure Azure Application and Import Custom Connector")
-*   [Download](solution/GetOrganizationUsers.zip) the `GetOrganizationUsers.zip` from the `solution` folder
-*   [Import](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/) the `GetOrganizationUsers.zip` file using **My Flows** > **Import** > **Upload** within Microsoft Flow.
+*   Returning Data to DataFlow
 
 ### Import Get Organization Users Solution
 Select the **Microsoft Graph API Demo Connection**, under **Related Resources** > **Select during import** and select the Custom Connector Connection previously created.
